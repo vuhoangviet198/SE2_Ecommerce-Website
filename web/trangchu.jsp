@@ -22,7 +22,7 @@
          };nsc(document).on('matrixupdated', function(){  setCarouselTriggers();});
       </script>
     <head>
-        <title>Drink Store</title>
+        <title>Home | Drink Store</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 

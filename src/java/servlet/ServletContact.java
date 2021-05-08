@@ -77,6 +77,8 @@ public class ServletContact extends HttpServlet {
         String content = request.getParameter("content");
         FeedbackDAO fdao = new FeedbackDAO();
         fdao.insertFeedback(name, email, phone, content);
+        String errMess = "Thanks for your feedback!";
+        request.setAttribute("errMess", errMess);
         request.getRequestDispatcher("contact.jsp").forward(request, response);
     }
 

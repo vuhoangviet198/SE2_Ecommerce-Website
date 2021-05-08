@@ -9,7 +9,7 @@
       <script src="https://cdn.powered-by-nitrosell.com/assets/beta/assets/js/systemv2.js?fb47c41a31603799213"></script>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Contact Us</title>
+        <title>Contact Us / Feedback</title>
         <style>
             .container .row .col-sm-6{
                 background-color: white;
@@ -151,7 +151,14 @@
         <!-- end Header-->
         <!-- start Body-->
         <div class="container">
-            <h1>Contact Us</h1>
+            <h1>Contact Us / Feedback</h1>
+            <%
+                    if (request.getAttribute("errMess") != null) {
+            %>
+            <h3 style="color: red"><%= request.getAttribute("errMess")%></h3>
+            <%
+                    }
+            %>
             <div class="row">
                 <div class="col-sm-6">
                     <p>Please use the form below to contact us or to send us feedback, for alternative methods our telephone, address and mailing address are also given. Fields marked * are mandatory.</p>
@@ -177,6 +184,7 @@
                     <i class="fa fa-envelope"></i>1801040181@s.hanu.edu.vn<br>
                     <i class="fa fa-address-book"></i>Hanoi University, Ha Noi, Viet Nam<br>
                 </div>
+                
             </div>
         </div>
         <!-- end Body-->
