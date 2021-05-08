@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Log in</title>
         <script src="https://kit.fontawesome.com/5eb161e28e.js"></script>
