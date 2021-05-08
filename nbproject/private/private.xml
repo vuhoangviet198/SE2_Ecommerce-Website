@@ -3,12 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/sontriplelift/Desktop/Project_DrinkStore/src/java/dao/CategoryDAO.java</file>
             <file>file:/C:/Users/sontriplelift/Desktop/Project_DrinkStore/src/java/servlet/ServletAddProduct.java</file>
-            <file>file:/C:/Users/sontriplelift/Desktop/Project_DrinkStore/src/java/dao/ProductDAO.java</file>
+            <file>file:/C:/Users/sontriplelift/Desktop/Project_DrinkStore/src/java/servlet/ServletProfile.java</file>
+            <file>file:/C:/Users/sontriplelift/Desktop/Project_DrinkStore/src/java/servlet/ServletProduct.java</file>
+            <file>file:/C:/Users/sontriplelift/Desktop/Project_DrinkStore/src/java/servlet/ServletManagerUser.java</file>
+            <file>file:/C:/Users/sontriplelift/Desktop/Project_DrinkStore/src/java/servlet/ServletManagerOrder.java</file>
             <file>file:/C:/Users/sontriplelift/Desktop/Project_DrinkStore/src/java/servlet/ServletUpdateProduct.java</file>
-            <file>file:/C:/Users/sontriplelift/Desktop/Project_DrinkStore/web/updateproduct.jsp</file>
-            <file>file:/C:/Users/sontriplelift/Desktop/Project_DrinkStore/web/trangchu.jsp</file>
-            <file>file:/C:/Users/sontriplelift/Desktop/Project_DrinkStore/src/java/servlet/ServletSearch.java</file>
+            <file>file:/C:/Users/sontriplelift/Desktop/Project_DrinkStore/src/java/servlet/ServletUpdateCategory.java</file>
+            <file>file:/C:/Users/sontriplelift/Desktop/Project_DrinkStore/src/java/servlet/ServletFeedback.java</file>
         </group>
     </open-files>
 </project-private>
