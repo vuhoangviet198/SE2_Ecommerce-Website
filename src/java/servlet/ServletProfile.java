@@ -116,7 +116,7 @@ public class ServletProfile extends HttpServlet {
             errMess = "Update Successfully!!!";
         }
         if ((password1 == null || password1.trim().equals(""))&&(phone1 == null || phone1.trim().equals(""))
-                &&(email1 != null || !email1.trim().equals(""))) {
+                &&(email1 == null || email1.trim().equals(""))) {
             errMess = "Must input at least 1 information to update";
         }
         if (!password1.equals(repassword)) {
